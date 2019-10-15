@@ -49,7 +49,7 @@ AWSLocationsUtils.shared.trackLocationChanges { (loc) in
 You can customize settings
 
 ```ruby
-// Please make sure this need to be set in AppDelegate !Before accessing AWSLocationsUtils.shared object
+// Please make sure this need to be set in AppDelegate Before accessing AWSLocationsUtils.shared object
 AWSLocationsUtils.distanceFilter = 25.0
 AWSLocationsUtils.alwaysRequired = true
 ```
