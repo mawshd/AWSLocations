@@ -38,7 +38,7 @@ Import Library into View Controller Where you want to use utilities
 import AWSLocations
 ```
 
-you can track location updates by using
+Than start using
 
 ```ruby
 AWSLocationsUtils.shared.trackLocationChanges { (loc) in
@@ -52,7 +52,6 @@ You can customize settings
 // Please make sure this need to be set in AppDelegate !Before accessing AWSLocationsUtils.shared object
 AWSLocationsUtils.distanceFilter = 25.0
 AWSLocationsUtils.alwaysRequired = true
-}
 ```
 
 ## License
