@@ -9,13 +9,14 @@ DESC
   s.homepage         = 'https://github.com/mawshd/AWSLocations'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Awais Shahid' => 'mawshd@gmail.com' }
-  s.source           = { :git => 'https://github.com/mawshd/AWSLocations', :tag => "#{s.version}" }
+  s.source           = { :git => 'https://github.com/mawshd/AWSLocations.git', :tag => "#{s.version}" }
   
   s.ios.deployment_target = '11.0'
 
-  s.source_files = 'AWSCore/Core/**/*.{h,m,swift}'
+  s.source_files = 'AWSLocations/Core/**/*.{h,m,swift}'
 
   s.static_framework = true
-  s.dependency 'GoogleMaps'
+  s.dependency 'AWSExtensions'
+
   
 end
